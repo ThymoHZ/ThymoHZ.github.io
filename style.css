@@ -1,5 +1,6 @@
 body {
   background-image: url('low-poly-grid-haikei.png');
+  background-size: cover;
 }
 
 h1 {
@@ -28,6 +29,8 @@ img {
   margin-right: auto;
 }
 
+/* navigation bar */
+
 #navbar {
   list-style-type: none;
   padding-top: 0;
@@ -45,6 +48,8 @@ img {
   margin-left: 10px;
   margin-right: 10px
 }
+
+/* links styles */
 
 a {
   text-decoration: none;
@@ -69,7 +74,7 @@ hr {
   border-color: aqua;
 }
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
+/* two image containers */
 .column {
   float: left;
   width: 50%;
