@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-image: url('low-poly-grid-haikei.png');
   background-size: cover;
@@ -87,3 +93,81 @@ hr {
   clear: both;
   display: table;
 }
+
+/* Here is the style for my table on the profile page. */
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  color: white;
+  padding: 5px;
+  position: relative;
+}
+
+/* Here is the style for my progress circle. */
+
+.skill {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+
+.outer {
+  height: 160px;
+  width: 160px;
+  padding: 20px;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  border-radius: 50%
+}
+
+.inner {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 4px 4px 6px -1px rgba(255, 255, 255, 0.7), inset -0.5px -0.5px 0px rgba(255, 255, 255, 1), 0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+}
+
+#number {
+  font-weight: 600;
+  color: grey;
+  font-size: 30px;
+}
+
+circle{
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 450;
+  stroke-dashoffset: 450;
+  animation: anim 2s linear forwards;
+}   
+
+@keyframes anim{
+  100%{
+    stroke-dashoffset: 225;
+  }
+}
+
+svg{
+  position: absolute;
+  top : 0;
+  left: 0;
+} 
+
+.parent {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(1, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 2 / 2 / 3 / 3; }
