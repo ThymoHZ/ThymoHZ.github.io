@@ -1,0 +1,7 @@
+Feedback on My Code
+
+The feedback I received on my code was really helpful. I learned that the way I wrote some of my code wasn’t always the most optimal. One of the main issues was that I had a few spelling mistakes, which is why some of my CSS styles weren’t working correctly.
+
+After fixing those small errors, I was able to track my code more easily and rewrite a small portion to make sure everything worked as it was intended. Once I corrected the mistakes, it became much clearer why it’s important to stay consistent with the use of classes and IDs.
+
+The rest of the feedback was simply about making my code a little more readable, which was an easy fix. Overall, the feedback gave me a better understanding of how small details can have a big impact, and how consistency makes coding smoother and easier to follow.

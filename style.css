@@ -37,6 +37,14 @@ section {
   padding-top: 5px;
 }
 
+article {
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 /* navigation bar */
 
 #navbar {
