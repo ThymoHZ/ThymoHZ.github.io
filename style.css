@@ -65,6 +65,11 @@ article {
   margin-right: 10px
 }
 
+/* Aside menu */
+.asidemenu {
+padding: 7px;
+}
+
 /* links styles */
 
 a {
